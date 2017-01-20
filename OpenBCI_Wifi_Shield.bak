@@ -1,0 +1,163 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP8266
+LIBS:OpenBCI
+LIBS:OpenBCI_Wifi_Shield-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "OpenBCI Wifi Shield"
+Date ""
+Rev "v0.1.0"
+Comp "Push The World LLC"
+Comment1 "AJ Keller"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-12 U?
+U 1 1 58826A08
+P 5650 3150
+F 0 "U?" H 5650 3050 50  0000 C CNN
+F 1 "ESP-12" H 5650 3250 50  0000 C CNN
+F 2 "" H 5650 3150 50  0001 C CNN
+F 3 "" H 5650 3150 50  0001 C CNN
+	1    5650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58826AAB
+P 3950 1500
+F 0 "C?" H 3975 1600 50  0000 L CNN
+F 1 "C" H 3975 1400 50  0000 L CNN
+F 2 "" H 3988 1350 50  0000 C CNN
+F 3 "" H 3950 1500 50  0000 C CNN
+	1    3950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58826AF4
+P 4200 1500
+F 0 "C?" H 4225 1600 50  0000 L CNN
+F 1 "C" H 4225 1400 50  0000 L CNN
+F 2 "" H 4238 1350 50  0000 C CNN
+F 3 "" H 4200 1500 50  0000 C CNN
+	1    4200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 58826B21
+P 4450 1500
+F 0 "C?" H 4475 1600 50  0000 L CNN
+F 1 "C" H 4475 1400 50  0000 L CNN
+F 2 "" H 4488 1350 50  0000 C CNN
+F 3 "" H 4450 1500 50  0000 C CNN
+	1    4450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58826B47
+P 3050 1500
+F 0 "P?" H 3050 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 3150 1500 50  0000 C CNN
+F 2 "" H 3050 1500 50  0000 C CNN
+F 3 "" H 3050 1500 50  0000 C CNN
+	1    3050 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X08 P?
+U 1 1 58826D08
+P 10050 2700
+F 0 "P?" H 10050 3150 50  0000 C CNN
+F 1 "CONN_01X08" V 10150 2700 50  0000 C CNN
+F 2 "" H 10050 2700 50  0000 C CNN
+F 3 "" H 10050 2700 50  0000 C CNN
+	1    10050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P?
+U 1 1 58826E52
+P 10050 3800
+F 0 "P?" H 10050 4250 50  0000 C CNN
+F 1 "CONN_01X08" V 10150 3800 50  0000 C CNN
+F 2 "" H 10050 3800 50  0000 C CNN
+F 3 "" H 10050 3800 50  0000 C CNN
+	1    10050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58826EAE
+P 10050 4750
+F 0 "P?" H 10050 5000 50  0000 C CNN
+F 1 "CONN_01X04" V 10150 4750 50  0000 C CNN
+F 2 "" H 10050 4750 50  0000 C CNN
+F 3 "" H 10050 4750 50  0000 C CNN
+	1    10050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58826EEF
+P 10050 5450
+F 0 "P?" H 10050 5700 50  0000 C CNN
+F 1 "CONN_01X04" V 10150 5450 50  0000 C CNN
+F 2 "" H 10050 5450 50  0000 C CNN
+F 3 "" H 10050 5450 50  0000 C CNN
+	1    10050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2350 9300 2350
+Wire Wire Line
+	9850 2450 9300 2450
+Wire Wire Line
+	9850 2550 9300 2550
+Wire Wire Line
+	9850 2650 9300 2650
+Wire Wire Line
+	9850 2750 9300 2750
+Wire Wire Line
+	9850 2850 9300 2850
+Wire Wire Line
+	9850 2950 9300 2950
+Wire Wire Line
+	9850 3050 9300 3050
+$EndSCHEMATC
