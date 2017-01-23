@@ -1,4 +1,4 @@
-update=Friday, January 20, 2017 'PMt' 04:58:46 PM
+update=Monday, January 23, 2017 'PMt' 06:29:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=/Users/andrewkeller/kicad/libraries/kicad-ESP8266/ESP8266
 LibName31=/Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_KiCad_Files/OpenBCI_KiCad_library_files/OpenBCI
+LibName32=diode
+LibName33=OpenBCI_Wifi
+LibName34=switches

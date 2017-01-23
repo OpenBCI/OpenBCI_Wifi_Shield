@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2112
+D 600mA CMOS LDO REGULATOR WITH ENABLE
+F /Users/andrewkeller/Downloads/AP2112-271550.pdf
+$ENDCMP
+#
+#End Doc Library
