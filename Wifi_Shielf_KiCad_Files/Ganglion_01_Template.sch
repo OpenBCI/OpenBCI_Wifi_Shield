@@ -1,0 +1,265 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "Ganglion"
+Date "2016-07-10"
+Rev "01"
+Comp "OpenBCI"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X08 P4
+U 1 1 570AB622
+P 15500 6350
+F 0 "P4" H 15500 6800 50  0000 C CNN
+F 1 "CONN_01X08" V 15600 6350 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 15500 6350 50  0001 C CNN
+F 3 "" H 15500 6350 50  0000 C CNN
+	1    15500 6350
+	1    0    0    -1  
+$EndComp
+Text Label 14850 6200 0    60   ~ 0
+MISO
+Text Label 14850 6300 0    60   ~ 0
+SCK
+Text Label 14850 6400 0    60   ~ 0
+RST
+Text Label 14850 6500 0    60   ~ 0
+CLK
+Text Label 14850 6600 0    60   ~ 0
+MOSI
+Text Label 14850 6700 0    60   ~ 0
+D_12
+$Comp
+L VDD #PWR01
+U 1 1 57116996
+P 14900 5900
+F 0 "#PWR01" H 14900 5750 50  0001 C CNN
+F 1 "VDD" H 14900 6050 50  0000 C CNN
+F 2 "" H 14900 5900 50  0000 C CNN
+F 3 "" H 14900 5900 50  0000 C CNN
+	1    14900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P2
+U 1 1 571181E0
+P 15500 7200
+F 0 "P2" H 15500 7450 50  0000 C CNN
+F 1 "CONN_01X04" V 15600 7200 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 15500 7200 50  0001 C CNN
+F 3 "" H 15500 7200 50  0000 C CNN
+	1    15500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 57118342
+P 15500 7850
+F 0 "P3" H 15500 8100 50  0000 C CNN
+F 1 "CONN_01X04" V 15600 7850 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 15500 7850 50  0001 C CNN
+F 3 "" H 15500 7850 50  0000 C CNN
+	1    15500 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X08 P5
+U 1 1 57118453
+P 15500 5150
+F 0 "P5" H 15500 5600 50  0000 C CNN
+F 1 "CONN_01X08" V 15600 5150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 15500 5150 50  0001 C CNN
+F 3 "" H 15500 5150 50  0000 C CNN
+	1    15500 5150
+	1    0    0    -1  
+$EndComp
+Text Label 14850 7150 0    60   ~ 0
+SIM_RST
+$Comp
+L VDD #PWR02
+U 1 1 57119C20
+P 14700 7700
+F 0 "#PWR02" H 14700 7550 50  0001 C CNN
+F 1 "VDD" H 14700 7850 50  0000 C CNN
+F 2 "" H 14700 7700 50  0000 C CNN
+F 3 "" H 14700 7700 50  0000 C CNN
+	1    14700 7700
+	1    0    0    -1  
+$EndComp
+Text Label 14850 7050 0    60   ~ 0
+D_14
+Text Label 14850 7250 0    60   ~ 0
+D_4|A_5
+Text Label 14850 7700 0    60   ~ 0
+D_24
+Text Label 14850 7800 0    60   ~ 0
+D_21
+Text Label 14900 4900 0    60   ~ 0
+SIM_TX
+Text Label 14900 5000 0    60   ~ 0
+D_2|A_3
+Text Label 14900 5100 0    60   ~ 0
+SIM_RX
+Text Label 14900 5200 0    60   ~ 0
+D_3|A_4
+Text Label 14900 5300 0    60   ~ 0
+D_5|A_6
+Text Label 14900 5400 0    60   ~ 0
+D_9
+Text Label 14900 5500 0    60   ~ 0
+D_11
+Text Notes 14750 8500 0    60   ~ 0
+BREAKOUT PINS
+Wire Wire Line
+	14900 6000 15300 6000
+Wire Wire Line
+	15300 6200 14850 6200
+Wire Wire Line
+	14850 6300 15300 6300
+Wire Wire Line
+	15300 6400 14850 6400
+Wire Wire Line
+	15300 6500 14850 6500
+Wire Wire Line
+	15300 6600 14850 6600
+Wire Wire Line
+	15300 6700 14850 6700
+Wire Wire Line
+	14900 6000 14900 5900
+Wire Wire Line
+	15300 7050 14850 7050
+Wire Wire Line
+	15300 7150 14850 7150
+Wire Wire Line
+	15300 7250 14850 7250
+Wire Wire Line
+	15300 7700 14850 7700
+Wire Wire Line
+	15300 7800 14850 7800
+Wire Wire Line
+	14700 7900 15300 7900
+Wire Wire Line
+	14700 8000 15300 8000
+Wire Wire Line
+	14700 7900 14700 7700
+Wire Wire Line
+	14700 8000 14700 8100
+Wire Wire Line
+	15300 4800 14900 4800
+Wire Wire Line
+	15300 4900 14900 4900
+Wire Wire Line
+	15300 5000 14900 5000
+Wire Wire Line
+	15300 5100 14900 5100
+Wire Wire Line
+	15300 5200 14900 5200
+Wire Wire Line
+	15300 5300 14900 5300
+Wire Wire Line
+	15300 5400 14900 5400
+Wire Wire Line
+	15300 5500 14900 5500
+Text Label 14850 7350 0    60   ~ 0
+D_23
+$Comp
+L GNDA #PWR03
+U 1 1 573675C0
+P 14700 8100
+F 0 "#PWR03" H 14700 7850 50  0001 C CNN
+F 1 "GNDA" H 14700 7950 50  0000 C CNN
+F 2 "" H 14700 8100 50  0000 C CNN
+F 3 "" H 14700 8100 50  0000 C CNN
+	1    14700 8100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	14000 4600 14000 8600
+Wire Notes Line
+	14000 8600 15900 8600
+Wire Notes Line
+	15900 8600 15900 4600
+Wire Notes Line
+	15900 4600 14000 4600
+Wire Wire Line
+	15300 7350 14850 7350
+Wire Wire Line
+	15300 6100 14850 6100
+Text Label 14850 6100 0    60   ~ 0
+RESET
+$Comp
+L CONN_01X02 P1
+U 1 1 5887D594
+P 13100 5000
+F 0 "P1" H 13100 5150 50  0000 C CNN
+F 1 "CONN_01X02" V 13200 5000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 13100 5000 50  0001 C CNN
+F 3 "" H 13100 5000 50  0000 C CNN
+	1    13100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 5887D603
+P 13100 5600
+F 0 "P6" H 13100 5750 50  0000 C CNN
+F 1 "CONN_01X02" V 13200 5600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 13100 5600 50  0001 C CNN
+F 3 "" H 13100 5600 50  0000 C CNN
+	1    13100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P7
+U 1 1 5887D632
+P 13100 6250
+F 0 "P7" H 13100 6400 50  0000 C CNN
+F 1 "CONN_01X02" V 13200 6250 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 13100 6250 50  0001 C CNN
+F 3 "" H 13100 6250 50  0000 C CNN
+	1    13100 6250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12900 4950
+NoConn ~ 12900 5050
+NoConn ~ 12900 5550
+NoConn ~ 12900 5650
+NoConn ~ 12900 6200
+NoConn ~ 12900 6300
+$EndSCHEMATC
