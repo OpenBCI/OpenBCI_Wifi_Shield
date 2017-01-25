@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 68.044287 46.681236 154.459715 128.303001)
     (thickness 1.6)
-    (drawings 44)
+    (drawings 45)
     (tracks 133)
     (zones 0)
     (modules 22)
@@ -1017,6 +1017,9 @@
     )
   )
 
+  (gr_text "PUSH THE WORLD LLC\nREV v0.1.0" (at 103.924 81.282) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (dimension 22.606 (width 0.3) (layer Cmts.User)
     (gr_text "0.8900 in" (at 148.924 72.898 270) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
