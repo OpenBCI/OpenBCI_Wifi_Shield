@@ -1,24 +1,12 @@
-Reference, Value, Footprint, Datasheet
-C1,0.1uF,Capacitors_SMD:C_0603,
-C2,1uF,Capacitors_SMD:C_0603,
-C3,10uF,Capacitors_SMD:C_0603,
-P8,CONN_01X08,Socket_Strips:Socket_Strip_Straight_1x08,
-P7,CONN_01X08,Socket_Strips:Socket_Strip_Straight_1x08,
-P9,CONN_01X04,Socket_Strips:Socket_Strip_Straight_1x04,
-P10,CONN_01X04,Socket_Strips:Socket_Strip_Straight_1x04,
-D2,LED,Capacitors_SMD:C_0603,
-R3,1k,Capacitors_SMD:C_0603,
-U1,ESP-12E,OpenBCI_Wifi_Shield:ESP-12E-SMD,
-P6,CONN_01X02,Socket_Strips:Socket_Strip_Straight_1x02,
-P5,CONN_01X02,Socket_Strips:Socket_Strip_Straight_1x02,
-P4,CONN_01X02,Socket_Strips:Socket_Strip_Straight_1x02,
-U2,AP2112,TO_SOT_Packages_SMD:SOT-23-5,
-D1,MBR120,Diodes_SMD:D_SOD-123,
-R2,10K,Capacitors_SMD:C_0603,
-R1,10K,Capacitors_SMD:C_0603,
-P1,CONN_01X04,Socket_Strips:Socket_Strip_Straight_1x04,
-R4,10K,Capacitors_SMD:C_0603,
-SW2,TACT_SWITCH,OpenBCI:PTS810,
-SW1,TACT_SWITCH,OpenBCI:PTS810,
-P2,CONN_01X04,OpenBCI:JST_RA_SMT,
-SW3,SPDT,OpenBCI:SSSS810701SSSS810701,
+Qty,partname,description,lib
+0,"AP2112","","OpenBCI"
+0,"C","Unpolarized capacitor","device"
+0,"CONN_01X02","Connector, single row, 01x02","conn"
+0,"CONN_01X04","Connector, single row, 01x04","conn"
+0,"CONN_01X08","Connector, single row, 01x08","conn"
+0,"ESP-12E","ESP8266 ESP-12E module, 22 pins, 2mm, PCB antenna","ESP8266"
+0,"LED","","device"
+0,"MBR120","","OpenBCI"
+0,"R","Resistor","device"
+0,"SPDT","Single Pole Double Throw (SPDT) switch","OpenBCI"
+0,"TACT_SWITCH","Button","OpenBCI"
