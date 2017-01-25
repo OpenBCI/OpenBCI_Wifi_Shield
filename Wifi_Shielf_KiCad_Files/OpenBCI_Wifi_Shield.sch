@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 1 1
 Title "OpenBCI Wifi Shield"
 Date ""
-Rev "v0.1.1"
+Rev "v0.1.2"
 Comp "Push The World LLC"
 Comment1 "AJ Keller"
 Comment2 ""
