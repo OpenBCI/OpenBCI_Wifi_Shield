@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/andrewkeller/ptw/OpenBCI_Wifi_Shield/Wifi_Shielf_KiCad_Files/OpenBCI_Wifi_Shield.sch)
-    (date "Thursday, January 26, 2017 'PMt' 01:02:55 PM")
+    (date "Friday, January 27, 2017 'AMt' 11:08:50 AM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -101,7 +101,7 @@
       (tstamp 5886903A))
     (comp (ref D1)
       (value MBR120)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint kicad-libraries-master:SOD-123FL)
       (libsource (lib OpenBCI) (part MBR120))
       (sheetpath (names /) (tstamps /))
       (tstamp 588698C2))
@@ -313,14 +313,14 @@
         (pin (num 3) (name 3) (type passive))
         (pin (num 4) (name 4) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical ESP8266)
       (uri /Users/andrewkeller/kicad/libraries/kicad-ESP8266/ESP8266.lib))
     (library (logical OpenBCI)
-      (uri /Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_KiCad_Files/OpenBCI_KiCad_library_files/OpenBCI.lib)))
+      (uri /Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_KiCad_Files/OpenBCI_KiCad_library_files/OpenBCI.lib))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
   (nets
     (net (code 1) (name GND)
       (node (ref SW2) (pin 3))
