@@ -5,8 +5,32 @@ D 600mA CMOS LDO REGULATOR WITH ENABLE
 F /Users/andrewkeller/Downloads/AP2112-271550.pdf
 $ENDCMP
 #
+$CMP CONN_01X02_MALE
+D 2POS SIL VERTICAL SMT HEADER
+K connector
+F /Users/andrewkeller/Downloads/M20-877.pdf
+$ENDCMP
+#
+$CMP CONN_02X08
+D CONN RCPT 16POS .100 DL STR SMD 02x08
+K connector
+F /Users/andrewkeller/Downloads/89898.pdf
+$ENDCMP
+#
+$CMP CONN_02X08_FEMALE
+D CONN RCPT FEMALE 16POS .100 DL STR SMD 02x08
+K connector
+F /Users/andrewkeller/Downloads/89898.pdf
+$ENDCMP
+#
+$CMP CONN_02X08_MALE
+D CONN HEADER MALE 16POS .100" VERT TIN 02x08
+K connector
+F /Users/andrewkeller/Downloads/015912160_sd.pdf
+$ENDCMP
+#
 $CMP MBR120
-D Surface Mount Schottky Power RectifierSchottky Power Rectifier
+D Surface Mount Schottky Power Rectifier
 F /Users/andrewkeller/Downloads/MBR120LSFT1-D-93547.pdf
 $ENDCMP
 #

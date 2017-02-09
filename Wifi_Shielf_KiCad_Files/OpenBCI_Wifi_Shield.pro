@@ -1,4 +1,4 @@
-update=Monday, January 23, 2017 'PMt' 06:29:10 PM
+update=Wednesday, February 15, 2017 'PMt' 09:26:58 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Wifi_Shielf_KiCad_Files
 [eeschema/libraries]
 LibName1=power
 LibName2=device
