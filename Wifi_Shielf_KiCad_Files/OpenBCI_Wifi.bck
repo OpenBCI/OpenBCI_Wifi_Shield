@@ -5,4 +5,9 @@ D 600mA CMOS LDO REGULATOR WITH ENABLE
 F /Users/andrewkeller/Downloads/AP2112-271550.pdf
 $ENDCMP
 #
+$CMP MBR120
+D Surface Mount Schottky Power RectifierSchottky Power Rectifier
+F /Users/andrewkeller/Downloads/MBR120LSFT1-D-93547.pdf
+$ENDCMP
+#
 #End Doc Library

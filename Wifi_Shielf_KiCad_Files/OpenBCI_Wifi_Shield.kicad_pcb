@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.1778)
     (user_trace_width 0.2032)
     (user_trace_width 0.381)
@@ -593,7 +593,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x02 (layer F.Cu) (tedit 5887CAD7) (tstamp 5887C7D3)
-    (at 121.285 84.201 270)
+    (at 118.187 84.201 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /588686A5)
