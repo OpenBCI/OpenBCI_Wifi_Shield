@@ -18,9 +18,9 @@ F /Users/andrewkeller/Downloads/89898.pdf
 $ENDCMP
 #
 $CMP CONN_02X08_FEMALE
-D CONN RCPT FEMALE 16POS .100 DL STR SMD 02x08
+D CONN FMALE 16POS DL .1" GOLD SMD
 K connector
-F /Users/andrewkeller/Downloads/89898.pdf
+F /Users/aj/Downloads/103_NPxCxx2KFMx-RC,_10488-G.pdf
 $ENDCMP
 #
 $CMP CONN_02X08_MALE
