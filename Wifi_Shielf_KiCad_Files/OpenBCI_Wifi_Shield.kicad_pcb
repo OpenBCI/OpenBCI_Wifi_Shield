@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
     (links 58)
     (no_connects 33)
-    (area 77.547399 61.443799 138.911401 122.807801)
+    (area 68.044287 46.681236 154.459715 128.303001)
     (thickness 1.6)
     (drawings 59)
     (tracks 90)
@@ -44,7 +44,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.1778)
     (user_trace_width 0.1778)
     (user_trace_width 0.2032)
     (user_trace_width 0.381)
@@ -72,7 +72,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 77.724 122.682)
-    (grid_origin 77.724 122.682)
+    (grid_origin 138.811 83.947)
     (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
@@ -470,7 +470,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x04 (layer F.Cu) (tedit 588A3FD9) (tstamp 5728CCE6)
-    (at 128.3208 110.0328 225)
+    (at 128.6758 110.3878 225)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /58826EEF)
@@ -585,7 +585,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x02 (layer F.Cu) (tedit 5887CAD7) (tstamp 5887C7D3)
-    (at 118.187 84.201 270)
+    (at 117.967 84.201 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /588686A5)
@@ -1591,11 +1591,11 @@
   (segment (start 128.12969 91.1352) (end 128.1176 91.1352) (width 0.381) (layer F.Cu) (net 7) (tstamp 5888F64F))
   (segment (start 124.1552 98.5188) (end 124.1552 101.6628) (width 0.381) (layer B.Cu) (net 7))
   (segment (start 124.1552 101.6628) (end 124.8544 102.362) (width 0.381) (layer B.Cu) (net 7) (tstamp 588906E9))
-  (segment (start 127.2032 98.4377) (end 127.199 98.4335) (width 0.381) (layer B.Cu) (net 8) (status C00000))
-  (segment (start 127.199 98.4335) (end 127.199 97.182) (width 0.381) (layer B.Cu) (net 8) (tstamp 58AEF439) (status 400000))
+  (segment (start 127.2032 98.4377) (end 127.199 98.4335) (width 0.381) (layer B.Cu) (net 8))
+  (segment (start 127.199 98.4335) (end 127.199 97.182) (width 0.381) (layer B.Cu) (net 8) (tstamp 58AEF439))
   (via (at 127.199 97.182) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 8))
   (segment (start 127.199 97.182) (end 127.199 97.157058) (width 0.381) (layer F.Cu) (net 8) (tstamp 58AEF44E))
-  (segment (start 127.199 97.157058) (end 129.684023 94.672035) (width 0.381) (layer F.Cu) (net 8) (tstamp 58AEF44F) (status 800000))
+  (segment (start 127.199 97.157058) (end 129.684023 94.672035) (width 0.381) (layer F.Cu) (net 8) (tstamp 58AEF44F))
   (segment (start 129.609965 94.672035) (end 129.684023 94.672035) (width 0.381) (layer F.Cu) (net 8) (tstamp 5889035A))
   (segment (start 129.684023 94.672035) (end 129.559165 94.672035) (width 0.381) (layer F.Cu) (net 8))
   (segment (start 97.1035 109.6645) (end 95.5682 109.6645) (width 0.25) (layer F.Cu) (net 9))
