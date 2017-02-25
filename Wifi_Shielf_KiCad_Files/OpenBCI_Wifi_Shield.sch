@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:OpenBCI_Wifi_Shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,8 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ESP8266
-LIBS:OpenBCI
 LIBS:diode
 LIBS:OpenBCI_Wifi
 LIBS:switches
@@ -109,7 +108,6 @@ Text Label 11650 5050 2    60   ~ 0
 MOSI
 NoConn ~ 11900 5750
 NoConn ~ 11900 5850
-NoConn ~ 11900 5950
 NoConn ~ 11900 6600
 Text Notes 11850 5500 0    60   ~ 0
 BREAKOUT PINS
@@ -148,7 +146,7 @@ POWER
 Text Notes 7800 7250 0    60   ~ 0
 ESP8266 WIFI CHIP
 $Comp
-L LED D2
+L LED-RESCUE-OpenBCI_Wifi_Shield D2
 U 1 1 58828F9D
 P 9000 6050
 F 0 "D2" H 9000 6150 50  0000 C CNN
@@ -239,7 +237,7 @@ F 3 "" H 8200 3600 60  0001 C CNN
 $EndComp
 NoConn ~ 8800 3700
 $Comp
-L MBR120 D1
+L MBR120-RESCUE-OpenBCI_Wifi_Shield D1
 U 1 1 588698C2
 P 6150 2900
 F 0 "D1" H 6150 2750 60  0000 C CNN
@@ -524,7 +522,7 @@ F 3 "" H 8000 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-OpenBCI_Wifi_Shield D3
 U 1 1 5898FF73
 P 9550 5550
 F 0 "D3" H 9550 5650 50  0000 C CNN
@@ -590,7 +588,7 @@ F 3 "" H 12250 7550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D5
+L LED-RESCUE-OpenBCI_Wifi_Shield D5
 U 1 1 589C250A
 P 11800 7550
 F 0 "D5" H 11800 7650 50  0000 C CNN
@@ -758,7 +756,7 @@ Wire Wire Line
 	10350 6350 10350 6250
 Connection ~ 10350 6250
 Wire Wire Line
-	5650 5950 5700 5950
+	5650 5950 5800 5950
 Wire Wire Line
 	5700 5950 5700 5850
 Connection ~ 5700 5850
@@ -922,4 +920,9 @@ NoConn ~ 11650 4850
 NoConn ~ 11650 4950
 NoConn ~ 11650 5150
 NoConn ~ 7850 8550
+Text Label 11900 5950 2    60   ~ 0
+RESET
+Connection ~ 5700 5950
+Text Label 5800 5950 0    60   ~ 0
+RESET
 $EndSCHEMATC

@@ -833,15 +833,13 @@ F 3 "" H 12300 8100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11850 8100 12000 8100
+	11800 8100 12000 8100
 Wire Wire Line
 	11800 8100 11800 7950
 Text Label 11650 4450 2    60   ~ 0
 XVDD
 Text Label 12600 8200 0    60   ~ 0
 XVDD
-Wire Wire Line
-	11850 8100 11800 8100
 Wire Wire Line
 	12600 8000 12650 8000
 Wire Wire Line
