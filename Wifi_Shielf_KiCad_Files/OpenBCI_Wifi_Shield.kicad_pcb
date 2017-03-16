@@ -72,7 +72,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 77.724 122.682)
-    (grid_origin 77.724 122.682)
+    (grid_origin 138.811 83.947)
     (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
@@ -616,7 +616,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x02 (layer F.Cu) (tedit 5887CAD7) (tstamp 5887C7D3)
-    (at 118.187 84.201 270)
+    (at 117.967 84.201 270)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /588686A5)
