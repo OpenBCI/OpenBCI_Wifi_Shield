@@ -29,9 +29,4 @@ K connector
 F /Users/andrewkeller/Downloads/015912160_sd.pdf
 $ENDCMP
 #
-$CMP MBR120
-D Surface Mount Schottky Power Rectifier
-F /Users/andrewkeller/Downloads/MBR120LSFT1-D-93547.pdf
-$ENDCMP
-#
 #End Doc Library
