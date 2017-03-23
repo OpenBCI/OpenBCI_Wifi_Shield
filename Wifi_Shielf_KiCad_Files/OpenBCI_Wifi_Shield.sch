@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:OpenBCI_Wifi_Shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,10 +28,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ESP8266
+LIBS:OpenBCI
 LIBS:diode
 LIBS:OpenBCI_Wifi
 LIBS:switches
-LIBS:OpenBCI_Wifi_Shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 1 1
 Title "OpenBCI Wifi Shield"
 Date ""
-Rev "v0.3.0"
+Rev "v0.3.1"
 Comp "Push The World LLC"
 Comment1 "AJ Keller"
 Comment2 ""
@@ -146,12 +146,12 @@ POWER
 Text Notes 7800 7250 0    60   ~ 0
 ESP8266 WIFI CHIP
 $Comp
-L LED-RESCUE-OpenBCI_Wifi_Shield D2
+L LED D2
 U 1 1 58828F9D
 P 9000 6050
 F 0 "D2" H 9000 6150 50  0000 C CNN
 F 1 "LED" H 9000 5950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 9000 6050 50  0001 C CNN
+F 2 "D2" H 9000 6150 50  0000 C CNN
 F 3 "" H 9000 6050 50  0000 C CNN
 	1    9000 6050
 	-1   0    0    1   
@@ -237,12 +237,12 @@ F 3 "" H 8200 3600 60  0001 C CNN
 $EndComp
 NoConn ~ 8800 3700
 $Comp
-L MBR120-RESCUE-OpenBCI_Wifi_Shield D1
+L MBR120 D1
 U 1 1 588698C2
 P 6150 2900
 F 0 "D1" H 6150 2750 60  0000 C CNN
 F 1 "MBR120" H 6150 3100 60  0000 C CNN
-F 2 "kicad-libraries-master:SOD-123FL" H 6150 2900 60  0001 C CNN
+F 2 "D1" H 6150 2750 60  0000 C CNN
 F 3 "" H 6150 2900 60  0001 C CNN
 	1    6150 2900
 	-1   0    0    1   
@@ -483,7 +483,7 @@ U 1 1 5887F7D9
 P 6850 4500
 F 0 "P2" H 6850 4750 50  0000 C CNN
 F 1 "CONN_01X04" V 6950 4500 50  0000 C CNN
-F 2 "OpenBCI:JST_RA_SMT" H 6850 4500 50  0001 C CNN
+F 2 "OpenBCI_Wifi_Shield:JST_RA_SMT" H 6850 4500 50  0001 C CNN
 F 3 "" H 6850 4500 50  0000 C CNN
 	1    6850 4500
 	-1   0    0    -1  
@@ -522,12 +522,12 @@ F 3 "" H 8000 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-OpenBCI_Wifi_Shield D3
+L LED D3
 U 1 1 5898FF73
 P 9550 5550
 F 0 "D3" H 9550 5650 50  0000 C CNN
 F 1 "LED" H 9550 5450 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 9550 5550 50  0001 C CNN
+F 2 "D3" H 9550 5650 50  0000 C CNN
 F 3 "" H 9550 5550 50  0000 C CNN
 	1    9550 5550
 	0    -1   -1   0   
@@ -588,12 +588,12 @@ F 3 "" H 11750 7550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED-RESCUE-OpenBCI_Wifi_Shield D5
+L LED D5
 U 1 1 589C250A
 P 12200 7550
 F 0 "D5" H 12200 7650 50  0000 C CNN
 F 1 "LED" H 12200 7450 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 12200 7550 50  0001 C CNN
+F 2 "D5" H 12200 7650 50  0000 C CNN
 F 3 "" H 12200 7550 50  0000 C CNN
 	1    12200 7550
 	1    0    0    -1  
