@@ -1,4 +1,4 @@
-update=Thursday, March 23, 2017 'AMt' 10:58:34 AM
+update=Thursday, April 20, 2017 'AMt' 11:26:03 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=/Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_Ki
 LibName32=diode
 LibName33=OpenBCI_Wifi
 LibName34=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
