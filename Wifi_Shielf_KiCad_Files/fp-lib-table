@@ -1,6 +1,3 @@
 (fp_lib_table
-  (lib (name OpenBCI)(type KiCad)(uri /Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_KiCad_Files/OpenBCI_KiCad_library_files/OpenBCI.pretty)(options "")(descr ""))
-  (lib (name ESP8266)(type KiCad)(uri /Users/andrewkeller/kicad/libraries/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
   (lib (name OpenBCI_Wifi_Shield)(type KiCad)(uri "$(KIPRJMOD)/OpenBCI_Wifi_Shield.pretty")(options "")(descr ""))
-  (lib (name kicad-libraries-master)(type KiCad)(uri /Users/andrewkeller/Downloads/kicad-libraries-master)(options "")(descr ""))
 )

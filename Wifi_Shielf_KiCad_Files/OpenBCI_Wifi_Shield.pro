@@ -1,4 +1,4 @@
-update=Thursday, March 23, 2017 'AMt' 10:58:34 AM
+update=Monday, May 08, 2017 'AMt' 11:17:29 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../Wifi_Shielf_KiCad_Files
+LibDir=../Wifi_Shielf_KiCad_Files;../../../kicad/libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,8 +68,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/Users/andrewkeller/kicad/libraries/kicad-ESP8266/ESP8266
-LibName31=/Users/andrewkeller/openbci/Ganglion_Hardware_Design_Files/Ganglion_KiCad_Files/OpenBCI_KiCad_library_files/OpenBCI
-LibName32=diode
-LibName33=OpenBCI_Wifi
-LibName34=switches
+LibName30=diode
+LibName31=OpenBCI_Wifi
+LibName32=switches
+LibName33=/Users/aj/kicad/libraries/kicad-openbci/OpenBCI
+LibName34=/Users/aj/kicad/libraries/kicad-ESP8266/ESP8266
