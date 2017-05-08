@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:OpenBCI_Wifi_Shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,7 +31,8 @@ LIBS:valves
 LIBS:diode
 LIBS:OpenBCI_Wifi
 LIBS:switches
-LIBS:OpenBCI_Wifi_Shield-cache
+LIBS:OpenBCI
+LIBS:ESP8266
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 1 1
 Title "OpenBCI Wifi Shield"
 Date ""
-Rev "v0.3.1"
+Rev "v1.0.0"
 Comp "Push The World LLC"
 Comment1 "AJ Keller"
 Comment2 ""
@@ -145,17 +145,6 @@ Text Notes 8100 4800 0    60   ~ 0
 POWER
 Text Notes 7800 7250 0    60   ~ 0
 ESP8266 WIFI CHIP
-$Comp
-L LED-RESCUE-OpenBCI_Wifi_Shield D2
-U 1 1 58828F9D
-P 9000 6050
-F 0 "D2" H 9000 6150 50  0000 C CNN
-F 1 "LED" H 9000 5950 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 9000 6200 50  0000 C CNN
-F 3 "" H 9000 6050 50  0000 C CNN
-	1    9000 6050
-	-1   0    0    1   
-$EndComp
 $Comp
 L R R3
 U 1 1 5882914D
@@ -522,17 +511,6 @@ F 3 "" H 8000 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-OpenBCI_Wifi_Shield D3
-U 1 1 5898FF73
-P 9550 5550
-F 0 "D3" H 9550 5650 50  0000 C CNN
-F 1 "LED" H 9550 5450 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 9550 5350 50  0000 C CNN
-F 3 "" H 9550 5550 50  0000 C CNN
-	1    9550 5550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R5
 U 1 1 58990564
 P 6100 5550
@@ -586,17 +564,6 @@ F 2 "Capacitors_SMD:C_0603" V 11680 7550 50  0001 C CNN
 F 3 "" H 11750 7550 50  0000 C CNN
 	1    11750 7550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L LED-RESCUE-OpenBCI_Wifi_Shield D5
-U 1 1 589C250A
-P 12200 7550
-F 0 "D5" H 12200 7650 50  0000 C CNN
-F 1 "LED" H 12200 7450 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 12200 7750 50  0000 C CNN
-F 3 "" H 12200 7550 50  0000 C CNN
-	1    12200 7550
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R6
@@ -668,9 +635,9 @@ Wire Wire Line
 Wire Wire Line
 	9300 6050 9300 5850
 Wire Wire Line
-	9200 6050 9300 6050
+	9150 6050 9300 6050
 Wire Wire Line
-	8100 6050 8800 6050
+	8100 6050 8850 6050
 Wire Wire Line
 	8100 6550 8100 6850
 Connection ~ 8750 4500
@@ -791,9 +758,9 @@ Wire Notes Line
 Wire Notes Line
 	5450 2500 5450 4900
 Wire Wire Line
-	9550 5350 9550 5250
+	9550 5250 9550 5400
 Wire Wire Line
-	9550 5850 9550 5750
+	9550 5700 9550 5850
 Wire Wire Line
 	6100 5400 6100 5300
 Wire Wire Line
@@ -848,7 +815,7 @@ XVDD
 Text Label 11650 4550 2    60   ~ 0
 GND
 Wire Wire Line
-	12400 7550 12500 7550
+	12350 7550 12500 7550
 Text Label 12500 7550 0    60   ~ 0
 OBCI_LED
 Text Label 11900 6050 2    60   ~ 0
@@ -920,9 +887,42 @@ F 3 "" H 11500 7650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12000 7550 11900 7550
+	11900 7550 12050 7550
 Wire Wire Line
 	11600 7550 11500 7550
 Wire Wire Line
 	11500 7550 11500 7650
+$Comp
+L LED D2
+U 1 1 5910961F
+P 9000 6050
+F 0 "D2" H 9000 6150 50  0000 C CNN
+F 1 "LED" H 9000 5950 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 9000 6050 50  0001 C CNN
+F 3 "" H 9000 6050 50  0000 C CNN
+	1    9000 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D3
+U 1 1 591097CF
+P 9550 5550
+F 0 "D3" H 9550 5650 50  0000 C CNN
+F 1 "LED" H 9550 5450 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 9550 5550 50  0001 C CNN
+F 3 "" H 9550 5550 50  0000 C CNN
+	1    9550 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 591099F4
+P 12200 7550
+F 0 "D4" H 12200 7650 50  0000 C CNN
+F 1 "LED" H 12200 7450 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 12200 7550 50  0001 C CNN
+F 3 "" H 12200 7550 50  0000 C CNN
+	1    12200 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

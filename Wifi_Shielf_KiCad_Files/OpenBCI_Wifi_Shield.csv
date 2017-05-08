@@ -1,16 +1,0 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"SW3";"SSSS810701SSSS810701";1;"SPDT";;;
-2;"P8,P7";"Socket_Strip_Straight_1x08";2;"CONN_01X08";;;
-3;"P9,P10,P1";"Socket_Strip_Straight_1x04";3;"CONN_01X04";;;
-4;"P4,P6,P5";"Socket_Strip_Straight_1x02";3;"CONN_01X02";;;
-5;"C1";"C_0603";1;"0.1uF";;;
-6;"C2";"C_0603";1;"1uF";;;
-7;"C3";"C_0603";1;"10uF";;;
-8;"D1";"D_SOD-123";1;"MBR120";;;
-9;"D2";"C_0603";1;"LED";;;
-10;"P2";"JST_RA_SMT";1;"CONN_01X04";;;
-11;"R1,R2,R4";"C_0603";3;"10K";;;
-12;"R3";"C_0603";1;"1k";;;
-13;"U2";"SOT-23-5";1;"AP2112";;;
-14;"SW1,SW2";"PTS810";2;"TACT_SWITCH";;;
-15;"U1";"ESP-12E-SMD";1;"ESP-12E";;;
