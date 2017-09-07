@@ -1,0 +1,714 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:diode
+LIBS:OpenBCI_Wifi
+LIBS:switches
+LIBS:OpenBCI
+LIBS:ESP8266
+LIBS:ThinkerHeadset
+LIBS:ThinkerAFE
+LIBS:ADS1299IPAG
+LIBS:OpenBCI_Wifi_Shield-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Hardware filters"
+Date ""
+Rev "v0.2.0"
+Comp "Push The World LLC"
+Comment1 ""
+Comment2 "Created by AJ Keller"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TPD4E1B06 U8
+U 1 1 59A595CF
+P 2800 5700
+F 0 "U8" H 2650 5850 60  0000 C CNN
+F 1 "TPD4E1B06" H 2750 5450 60  0000 C CNN
+F 2 "ThinkerHeadset:TPD4E1B06" H 2800 5700 60  0001 C CNN
+F 3 "" H 2800 5700 60  0000 C CNN
+	1    2800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5550 5350 5550
+Wire Wire Line
+	4550 5650 5350 5650
+Wire Wire Line
+	4550 5850 5350 5850
+Wire Wire Line
+	5050 5950 5050 5850
+Connection ~ 5050 5850
+Wire Wire Line
+	5050 6750 5050 7000
+Wire Wire Line
+	2300 6900 5050 6900
+Wire Wire Line
+	2300 6900 2300 5850
+Wire Wire Line
+	2300 5850 2400 5850
+Wire Wire Line
+	4950 6750 4950 6900
+Connection ~ 4950 6900
+Wire Wire Line
+	4850 6750 4850 6900
+Connection ~ 4850 6900
+Wire Wire Line
+	4750 6750 4750 6900
+Connection ~ 4750 6900
+$Comp
+L GNDA #PWR57
+U 1 1 59A5A02D
+P 5050 7000
+F 0 "#PWR57" H 5050 6750 50  0001 C CNN
+F 1 "GNDA" H 5050 6850 50  0000 C CNN
+F 2 "" H 5050 7000 50  0000 C CNN
+F 3 "" H 5050 7000 50  0000 C CNN
+	1    5050 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 6900
+Text GLabel 2000 5650 0    60   Input ~ 0
+SRB1
+Wire Wire Line
+	2000 6050 3150 6050
+Wire Wire Line
+	3150 6050 3150 5850
+Text GLabel 2000 3600 0    60   Input ~ 0
+1P
+Wire Wire Line
+	2000 5750 2400 5750
+Text GLabel 2000 3700 0    60   Input ~ 0
+1N
+Wire Wire Line
+	2000 5650 2400 5650
+Wire Wire Line
+	2350 5450 3550 5450
+Wire Wire Line
+	3550 5450 3550 5550
+Wire Wire Line
+	3550 5550 3650 5550
+Wire Wire Line
+	2250 5400 3400 5400
+Wire Wire Line
+	3400 5400 3400 5650
+Wire Wire Line
+	3400 5650 3650 5650
+Text GLabel 5350 3300 2    60   Input ~ 0
+IN1N
+Text GLabel 5350 3400 2    60   Input ~ 0
+IN1P
+Text GLabel 5350 5650 2    60   Input ~ 0
+_SRB1
+Wire Wire Line
+	3100 5850 3650 5850
+Connection ~ 3150 5850
+$Comp
+L TPD4E1B06 U7
+U 1 1 59A5AA51
+P 2800 3250
+F 0 "U7" H 2650 3400 60  0000 C CNN
+F 1 "TPD4E1B06" H 2750 3000 60  0000 C CNN
+F 2 "ThinkerHeadset:TPD4E1B06" H 2800 3250 60  0001 C CNN
+F 3 "" H 2800 3250 60  0000 C CNN
+	1    2800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3100 5350 3100
+Wire Wire Line
+	4550 3200 5350 3200
+Wire Wire Line
+	4550 3300 5350 3300
+Wire Wire Line
+	4550 3400 5350 3400
+Wire Wire Line
+	4750 3500 4750 3100
+Connection ~ 4750 3100
+Wire Wire Line
+	4850 3500 4850 3200
+Connection ~ 4850 3200
+Wire Wire Line
+	4950 3500 4950 3300
+Connection ~ 4950 3300
+Wire Wire Line
+	5050 3500 5050 3400
+Connection ~ 5050 3400
+Wire Wire Line
+	5050 4300 5050 4550
+Wire Wire Line
+	2300 4450 5050 4450
+Wire Wire Line
+	2300 4450 2300 3400
+Wire Wire Line
+	2300 3400 2400 3400
+Wire Wire Line
+	4950 4300 4950 4450
+Connection ~ 4950 4450
+Wire Wire Line
+	4850 4300 4850 4450
+Connection ~ 4850 4450
+Wire Wire Line
+	4750 4300 4750 4450
+Connection ~ 4750 4450
+$Comp
+L GNDA #PWR55
+U 1 1 59A5AA7B
+P 5050 4550
+F 0 "#PWR55" H 5050 4300 50  0001 C CNN
+F 1 "GNDA" H 5050 4400 50  0000 C CNN
+F 2 "" H 5050 4550 50  0000 C CNN
+F 3 "" H 5050 4550 50  0000 C CNN
+	1    5050 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 4450
+Text GLabel 2000 3300 0    60   Input ~ 0
+2P
+Wire Wire Line
+	3200 3700 2000 3700
+Wire Wire Line
+	3200 3300 3200 3700
+Text GLabel 2000 3200 0    60   Input ~ 0
+2N
+Wire Wire Line
+	2000 3600 3150 3600
+Wire Wire Line
+	3150 3600 3150 3400
+Text GLabel 4600 1300 0    60   Input ~ 0
+3P
+Wire Wire Line
+	2000 3300 2400 3300
+Text GLabel 4600 1400 0    60   Input ~ 0
+3N
+Wire Wire Line
+	2000 3200 2400 3200
+Wire Wire Line
+	2350 3200 2350 3000
+Wire Wire Line
+	2350 3000 3550 3000
+Wire Wire Line
+	3550 3000 3550 3100
+Wire Wire Line
+	3550 3100 3650 3100
+Connection ~ 2350 3200
+Wire Wire Line
+	2250 3300 2250 2950
+Wire Wire Line
+	2250 2950 3400 2950
+Wire Wire Line
+	3400 2950 3400 3200
+Wire Wire Line
+	3400 3200 3650 3200
+Connection ~ 2250 3300
+Text GLabel 7950 1000 2    60   Input ~ 0
+IN3N
+Text GLabel 7950 1100 2    60   Input ~ 0
+IN3P
+Text GLabel 5350 3100 2    60   Input ~ 0
+IN2N
+Text GLabel 5350 3200 2    60   Input ~ 0
+IN2P
+Wire Wire Line
+	3100 3400 3650 3400
+Connection ~ 3150 3400
+Wire Wire Line
+	3100 3300 3650 3300
+Connection ~ 3200 3300
+$Comp
+L TPD4E1B06 U6
+U 1 1 59A5ADCA
+P 5400 950
+F 0 "U6" H 5250 1100 60  0000 C CNN
+F 1 "TPD4E1B06" H 5350 700 60  0000 C CNN
+F 2 "ThinkerHeadset:TPD4E1B06" H 5400 950 60  0001 C CNN
+F 3 "" H 5400 950 60  0000 C CNN
+	1    5400 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 800  7950 800 
+Wire Wire Line
+	7150 900  7950 900 
+Wire Wire Line
+	7150 1000 7950 1000
+Wire Wire Line
+	7150 1100 7950 1100
+Wire Wire Line
+	7350 1200 7350 800 
+Connection ~ 7350 800 
+Wire Wire Line
+	7450 1200 7450 900 
+Connection ~ 7450 900 
+Wire Wire Line
+	7550 1200 7550 1000
+Connection ~ 7550 1000
+Wire Wire Line
+	7650 1200 7650 1100
+Connection ~ 7650 1100
+Wire Wire Line
+	7650 2000 7650 2250
+Wire Wire Line
+	4900 2150 7650 2150
+Wire Wire Line
+	4900 2150 4900 1100
+Wire Wire Line
+	4900 1100 5000 1100
+Wire Wire Line
+	7550 2000 7550 2150
+Connection ~ 7550 2150
+Wire Wire Line
+	7450 2000 7450 2150
+Connection ~ 7450 2150
+Wire Wire Line
+	7350 2000 7350 2150
+Connection ~ 7350 2150
+$Comp
+L GNDA #PWR53
+U 1 1 59A5ADF4
+P 7650 2250
+F 0 "#PWR53" H 7650 2000 50  0001 C CNN
+F 1 "GNDA" H 7650 2100 50  0000 C CNN
+F 2 "" H 7650 2250 50  0000 C CNN
+F 3 "" H 7650 2250 50  0000 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 2150
+Text GLabel 4600 1000 0    60   Input ~ 0
+4P
+Wire Wire Line
+	5800 1400 4600 1400
+Wire Wire Line
+	5800 1000 5800 1400
+Text GLabel 4600 900  0    60   Input ~ 0
+4N
+Wire Wire Line
+	4600 1300 5750 1300
+Wire Wire Line
+	5750 1300 5750 1100
+Text GLabel 7250 3250 0    60   Input ~ 0
+5P
+Wire Wire Line
+	4600 1000 5000 1000
+Text GLabel 7250 3350 0    60   Input ~ 0
+5N
+Wire Wire Line
+	4600 900  5000 900 
+Wire Wire Line
+	4950 900  4950 700 
+Wire Wire Line
+	4950 700  6150 700 
+Wire Wire Line
+	6150 700  6150 800 
+Wire Wire Line
+	6150 800  6250 800 
+Connection ~ 4950 900 
+Wire Wire Line
+	4850 1000 4850 650 
+Wire Wire Line
+	4850 650  6000 650 
+Wire Wire Line
+	6000 650  6000 900 
+Wire Wire Line
+	6000 900  6250 900 
+Connection ~ 4850 1000
+Text GLabel 10600 2950 2    60   Input ~ 0
+IN5N
+Text GLabel 10600 3050 2    60   Input ~ 0
+IN5P
+Text GLabel 7950 800  2    60   Input ~ 0
+IN4N
+Text GLabel 7950 900  2    60   Input ~ 0
+IN4P
+Connection ~ 5750 1100
+Connection ~ 5800 1000
+$Comp
+L TPD4E1B06 U5
+U 1 1 59A5B009
+P 8050 2900
+F 0 "U5" H 7900 3050 60  0000 C CNN
+F 1 "TPD4E1B06" H 8000 2650 60  0000 C CNN
+F 2 "ThinkerHeadset:TPD4E1B06" H 8050 2900 60  0001 C CNN
+F 3 "" H 8050 2900 60  0000 C CNN
+	1    8050 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2750 10600 2750
+Wire Wire Line
+	9800 2850 10600 2850
+Wire Wire Line
+	9800 2950 10600 2950
+Wire Wire Line
+	9800 3050 10600 3050
+Wire Wire Line
+	10000 3150 10000 2750
+Connection ~ 10000 2750
+Wire Wire Line
+	10100 3150 10100 2850
+Connection ~ 10100 2850
+Wire Wire Line
+	10200 3150 10200 2950
+Connection ~ 10200 2950
+Wire Wire Line
+	10300 3150 10300 3050
+Connection ~ 10300 3050
+Wire Wire Line
+	10300 3950 10300 4200
+Wire Wire Line
+	7550 4100 10300 4100
+Wire Wire Line
+	7550 4100 7550 3050
+Wire Wire Line
+	7550 3050 7650 3050
+Wire Wire Line
+	10200 3950 10200 4100
+Connection ~ 10200 4100
+Wire Wire Line
+	10100 3950 10100 4100
+Connection ~ 10100 4100
+Wire Wire Line
+	10000 3950 10000 4100
+Connection ~ 10000 4100
+$Comp
+L GNDA #PWR54
+U 1 1 59A5B033
+P 10300 4200
+F 0 "#PWR54" H 10300 3950 50  0001 C CNN
+F 1 "GNDA" H 10300 4050 50  0000 C CNN
+F 2 "" H 10300 4200 50  0000 C CNN
+F 3 "" H 10300 4200 50  0000 C CNN
+	1    10300 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 4100
+Text GLabel 7250 2950 0    60   Input ~ 0
+6P
+Wire Wire Line
+	8450 3350 7250 3350
+Wire Wire Line
+	8450 2950 8450 3350
+Text GLabel 7250 2850 0    60   Input ~ 0
+6N
+Wire Wire Line
+	7250 3250 8400 3250
+Wire Wire Line
+	8400 3250 8400 3050
+Text GLabel 7200 5350 0    60   Input ~ 0
+7P
+Wire Wire Line
+	7250 2950 7650 2950
+Text GLabel 7200 5450 0    60   Input ~ 0
+7N
+Wire Wire Line
+	7250 2850 7650 2850
+Wire Wire Line
+	7600 2850 7600 2650
+Wire Wire Line
+	7600 2650 8800 2650
+Wire Wire Line
+	8800 2650 8800 2750
+Wire Wire Line
+	8800 2750 8900 2750
+Connection ~ 7600 2850
+Wire Wire Line
+	7500 2950 7500 2600
+Wire Wire Line
+	7500 2600 8650 2600
+Wire Wire Line
+	8650 2600 8650 2850
+Wire Wire Line
+	8650 2850 8900 2850
+Connection ~ 7500 2950
+Text GLabel 10550 5050 2    60   Input ~ 0
+IN7N
+Text GLabel 10550 5150 2    60   Input ~ 0
+IN7P
+Text GLabel 10600 2750 2    60   Input ~ 0
+IN6N
+Text GLabel 10600 2850 2    60   Input ~ 0
+IN6P
+Wire Wire Line
+	8350 3050 8900 3050
+Wire Wire Line
+	8350 2950 8900 2950
+Connection ~ 8400 3050
+Connection ~ 8450 2950
+Text GLabel 7200 5050 0    60   Input ~ 0
+8P
+Text GLabel 7200 4950 0    60   Input ~ 0
+8N
+Text GLabel 2000 5750 0    60   Input ~ 0
+BIAS
+Text GLabel 5350 5550 2    60   Input ~ 0
+BIAS_DRV
+Text GLabel 10550 4850 2    60   Input ~ 0
+IN8N
+Text GLabel 10550 4950 2    60   Input ~ 0
+IN8P
+$Comp
+L TPD4E1B06 U4
+U 1 1 59AA1CD2
+P 8000 5000
+F 0 "U4" H 7850 5150 60  0000 C CNN
+F 1 "TPD4E1B06" H 7950 4750 60  0000 C CNN
+F 2 "ThinkerHeadset:TPD4E1B06" H 8000 5000 60  0001 C CNN
+F 3 "" H 8000 5000 60  0000 C CNN
+	1    8000 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4850 10550 4850
+Wire Wire Line
+	9750 4950 10550 4950
+Wire Wire Line
+	9750 5050 10550 5050
+Wire Wire Line
+	9750 5150 10550 5150
+Wire Wire Line
+	9950 5250 9950 4850
+Connection ~ 9950 4850
+Wire Wire Line
+	10050 5250 10050 4950
+Connection ~ 10050 4950
+Wire Wire Line
+	10150 5250 10150 5050
+Connection ~ 10150 5050
+Wire Wire Line
+	10250 5250 10250 5150
+Connection ~ 10250 5150
+Wire Wire Line
+	10250 6050 10250 6300
+Wire Wire Line
+	7500 6200 10250 6200
+Wire Wire Line
+	7500 6200 7500 5150
+Wire Wire Line
+	7500 5150 7600 5150
+Wire Wire Line
+	10150 6050 10150 6200
+Connection ~ 10150 6200
+Wire Wire Line
+	10050 6050 10050 6200
+Connection ~ 10050 6200
+Wire Wire Line
+	9950 6050 9950 6200
+Connection ~ 9950 6200
+$Comp
+L GNDA #PWR56
+U 1 1 59AA1CEE
+P 10250 6300
+F 0 "#PWR56" H 10250 6050 50  0001 C CNN
+F 1 "GNDA" H 10250 6150 50  0000 C CNN
+F 2 "" H 10250 6300 50  0000 C CNN
+F 3 "" H 10250 6300 50  0000 C CNN
+	1    10250 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 10250 6200
+Wire Wire Line
+	8400 5450 7200 5450
+Wire Wire Line
+	8400 5050 8400 5450
+Wire Wire Line
+	7200 5350 8350 5350
+Wire Wire Line
+	8350 5350 8350 5150
+Wire Wire Line
+	7200 5050 7600 5050
+Wire Wire Line
+	7200 4950 7600 4950
+Wire Wire Line
+	7550 4950 7550 4750
+Wire Wire Line
+	7550 4750 8750 4750
+Wire Wire Line
+	8750 4750 8750 4850
+Wire Wire Line
+	8750 4850 8850 4850
+Connection ~ 7550 4950
+Wire Wire Line
+	7450 5050 7450 4700
+Wire Wire Line
+	7450 4700 8600 4700
+Wire Wire Line
+	8600 4700 8600 4950
+Wire Wire Line
+	8600 4950 8850 4950
+Connection ~ 7450 5050
+Wire Wire Line
+	8300 5150 8850 5150
+Wire Wire Line
+	8300 5050 8850 5050
+Connection ~ 8350 5150
+Connection ~ 8400 5050
+Text GLabel 2000 6050 0    60   Input ~ 0
+SRB2
+Text GLabel 5350 5850 2    60   Input ~ 0
+_SRB2
+Text Notes 700  6050 0    60   ~ 0
+Should the two SRB1s\nmeet before or after \nthe RC filter?
+Wire Wire Line
+	2350 5450 2350 5750
+Connection ~ 2350 5750
+Wire Wire Line
+	2250 5400 2250 5650
+Connection ~ 2250 5650
+Wire Wire Line
+	5700 1000 6250 1000
+Wire Wire Line
+	5700 1100 6250 1100
+Wire Wire Line
+	4850 5950 4850 5650
+Connection ~ 4850 5650
+NoConn ~ 4750 5950
+Text Notes 4700 5400 0    60   ~ 0
+Intentionally no connect \nBIAS_DRV to Capacitor
+NoConn ~ 4550 5750
+NoConn ~ 3650 5750
+NoConn ~ 4950 5950
+NoConn ~ 3100 5750
+$Comp
+L RESISTOR_4XARRAY R11
+U 1 1 59B227D1
+P 4100 3250
+F 0 "R11" H 4100 3600 60  0000 C CNN
+F 1 "RESISTOR_4XARRAY" H 4100 2950 60  0000 C CNN
+F 2 "ThinkerHeadset:CAY16-F4" H 4050 3250 60  0001 C CNN
+F 3 "" H 4050 3250 60  0001 C CNN
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_4XARRAY R9
+U 1 1 59B2283E
+P 6700 950
+F 0 "R9" H 6700 1300 60  0000 C CNN
+F 1 "RESISTOR_4XARRAY" H 6700 650 60  0000 C CNN
+F 2 "ThinkerHeadset:CAY16-F4" H 6650 950 60  0001 C CNN
+F 3 "" H 6650 950 60  0001 C CNN
+	1    6700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_4XARRAY R10
+U 1 1 59B228D8
+P 9350 2900
+F 0 "R10" H 9350 3250 60  0000 C CNN
+F 1 "RESISTOR_4XARRAY" H 9350 2600 60  0000 C CNN
+F 2 "ThinkerHeadset:CAY16-F4" H 9300 2900 60  0001 C CNN
+F 3 "" H 9300 2900 60  0001 C CNN
+	1    9350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_4XARRAY R12
+U 1 1 59B22941
+P 9300 5000
+F 0 "R12" H 9300 5350 60  0000 C CNN
+F 1 "RESISTOR_4XARRAY" H 9300 4700 60  0000 C CNN
+F 2 "ThinkerHeadset:CAY16-F4" H 9250 5000 60  0001 C CNN
+F 3 "" H 9250 5000 60  0001 C CNN
+	1    9300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_4XARRAY R13
+U 1 1 59B22AA9
+P 4100 5700
+F 0 "R13" H 4100 6050 60  0000 C CNN
+F 1 "RESISTOR_4XARRAY" H 4100 5400 60  0000 C CNN
+F 2 "ThinkerHeadset:CAY16-F4" H 4050 5700 60  0001 C CNN
+F 3 "" H 4050 5700 60  0001 C CNN
+	1    4100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR_4XARRAY C7
+U 1 1 59B22B8B
+P 4900 3900
+F 0 "C7" H 4900 4200 60  0000 C CNN
+F 1 "CAPACITOR_4XARRAY" H 4900 3600 60  0000 C CNN
+F 2 "ThinkerHeadset:CKCL44" H 4900 4000 60  0001 C CNN
+F 3 "" H 4900 4000 60  0001 C CNN
+	1    4900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L CAPACITOR_4XARRAY C6
+U 1 1 59B22C9B
+P 10150 3550
+F 0 "C6" H 10150 3850 60  0000 C CNN
+F 1 "CAPACITOR_4XARRAY" H 10150 3250 60  0000 C CNN
+F 2 "ThinkerHeadset:CKCL44" H 10150 3650 60  0001 C CNN
+F 3 "" H 10150 3650 60  0001 C CNN
+	1    10150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L CAPACITOR_4XARRAY C5
+U 1 1 59B22D05
+P 7500 1600
+F 0 "C5" H 7500 1900 60  0000 C CNN
+F 1 "CAPACITOR_4XARRAY" H 7500 1300 60  0000 C CNN
+F 2 "ThinkerHeadset:CKCL44" H 7500 1700 60  0001 C CNN
+F 3 "" H 7500 1700 60  0001 C CNN
+	1    7500 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L CAPACITOR_4XARRAY C8
+U 1 1 59B22D5B
+P 10100 5650
+F 0 "C8" H 10100 5950 60  0000 C CNN
+F 1 "CAPACITOR_4XARRAY" H 10100 5350 60  0000 C CNN
+F 2 "ThinkerHeadset:CKCL44" H 10100 5750 60  0001 C CNN
+F 3 "" H 10100 5750 60  0001 C CNN
+	1    10100 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L CAPACITOR_4XARRAY C9
+U 1 1 59B22DD1
+P 4900 6350
+F 0 "C9" H 4900 6650 60  0000 C CNN
+F 1 "CAPACITOR_4XARRAY" H 4900 6050 60  0000 C CNN
+F 2 "ThinkerHeadset:CKCL44" H 4900 6450 60  0001 C CNN
+F 3 "" H 4900 6450 60  0001 C CNN
+	1    4900 6350
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

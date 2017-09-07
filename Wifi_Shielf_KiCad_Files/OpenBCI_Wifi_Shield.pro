@@ -1,4 +1,4 @@
-update=Monday, May 08, 2017 'AMt' 11:17:29 AM
+update=Wednesday, September 06, 2017 'PMt' 02:11:29 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,6 +33,8 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../Wifi_Shielf_KiCad_Files;../../../kicad/libraries
@@ -73,3 +73,6 @@ LibName31=OpenBCI_Wifi
 LibName32=switches
 LibName33=/Users/aj/kicad/libraries/kicad-openbci/OpenBCI
 LibName34=/Users/aj/kicad/libraries/kicad-ESP8266/ESP8266
+LibName35=ThinkerHeadset
+LibName36=ThinkerAFE
+LibName37=ADS1299IPAG/ADS1299IPAG
