@@ -1,4 +1,4 @@
-update=Wednesday, September 06, 2017 'PMt' 02:11:29 PM
+update=Monday, September 11, 2017 'PMt' 09:17:30 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../Wifi_Shielf_KiCad_Files;../../../kicad/libraries
@@ -76,3 +74,5 @@ LibName34=/Users/aj/kicad/libraries/kicad-ESP8266/ESP8266
 LibName35=ThinkerHeadset
 LibName36=ThinkerAFE
 LibName37=ADS1299IPAG/ADS1299IPAG
+[general]
+version=1

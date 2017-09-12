@@ -58,17 +58,6 @@ NoConn ~ 5750 3850
 NoConn ~ 5750 3950
 NoConn ~ 5750 4150
 $Comp
-L R R6
-U 1 1 59A60DB5
-P 3400 2350
-F 0 "R6" V 3480 2350 50  0000 C CNN
-F 1 "1M" V 3400 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 3330 2350 50  0001 C CNN
-F 3 "" H 3400 2350 50  0000 C CNN
-	1    3400 2350
-	0    1    1    0   
-$EndComp
-$Comp
 L C C21
 U 1 1 59A60DBC
 P 3400 2650
@@ -272,9 +261,13 @@ _VSSA
 Text Label 4600 3100 1    60   ~ 0
 _VSSA
 Wire Wire Line
-	3900 2150 3900 3100
+	3900 2150 3900 2400
 Wire Wire Line
-	4000 2650 4000 3100
+	3900 2400 3900 3100
+Wire Wire Line
+	4000 2650 4000 2700
+Wire Wire Line
+	4000 2700 4000 3100
 Wire Wire Line
 	4300 3100 4300 2700
 Wire Wire Line
@@ -283,21 +276,27 @@ Connection ~ 4000 2700
 Wire Wire Line
 	4400 3100 4400 1900
 Wire Wire Line
-	4400 1900 4700 1900
+	4400 1900 4500 1900
+Wire Wire Line
+	4500 1900 4700 1900
 Wire Wire Line
 	4700 2150 4500 2150
 Wire Wire Line
 	4500 2150 4500 1900
 Connection ~ 4500 1900
 Wire Wire Line
-	5000 1900 5250 1900
+	5000 1900 5100 1900
+Wire Wire Line
+	5100 1900 5250 1900
 Wire Wire Line
 	5000 2150 5100 2150
 Wire Wire Line
 	5100 2150 5100 1900
 Connection ~ 5100 1900
 Wire Wire Line
-	4700 2700 4700 3100
+	4700 2700 4700 2750
+Wire Wire Line
+	4700 2750 4700 3100
 Wire Wire Line
 	4900 3100 4900 2750
 Wire Wire Line
@@ -305,15 +304,21 @@ Wire Wire Line
 Connection ~ 4700 2750
 Connection ~ 5250 1900
 Wire Wire Line
-	5250 2700 5500 2700
+	5250 2700 5350 2700
+Wire Wire Line
+	5350 2700 5500 2700
 Wire Wire Line
 	5350 2700 5350 2800
 Connection ~ 5350 2700
 Wire Wire Line
-	5250 1800 5250 2400
+	5250 1800 5250 1900
+Wire Wire Line
+	5250 1900 5250 2400
 Connection ~ 5250 2400
 Wire Wire Line
-	5150 2400 5500 2400
+	5150 2400 5250 2400
+Wire Wire Line
+	5250 2400 5500 2400
 Wire Wire Line
 	4500 3100 4500 2700
 Wire Wire Line
@@ -325,9 +330,15 @@ Wire Wire Line
 Wire Wire Line
 	4800 6450 4800 6200
 Wire Wire Line
-	4300 6450 4800 6450
+	4300 6450 4400 6450
 Wire Wire Line
-	4600 6350 4600 6500
+	4400 6450 4600 6450
+Wire Wire Line
+	4600 6450 4800 6450
+Wire Wire Line
+	4600 6350 4600 6450
+Wire Wire Line
+	4600 6450 4600 6500
 Connection ~ 4600 6450
 Wire Wire Line
 	4400 6350 4400 6450
@@ -336,10 +347,16 @@ Wire Wire Line
 Wire Wire Line
 	4200 5900 3950 5900
 Wire Wire Line
-	3950 5900 3950 6250
+	3950 5900 3950 6050
+Wire Wire Line
+	3950 6050 3950 6250
 Connection ~ 3950 6050
 Wire Wire Line
-	4300 5500 4300 6450
+	4300 5500 4300 6050
+Wire Wire Line
+	4300 6050 4300 6250
+Wire Wire Line
+	4300 6250 4300 6450
 Wire Wire Line
 	4300 6050 4250 6050
 Wire Wire Line
@@ -448,7 +465,7 @@ CS
 Text GLabel 6200 4550 2    60   Input ~ 0
 START
 Text GLabel 6200 4750 2    60   Input ~ 0
-RESET
+ADS_RESET
 Text GLabel 6200 4950 2    60   Input ~ 0
 MOSI
 $Comp
@@ -543,9 +560,13 @@ F 3 "" H 3750 6250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3900 5850 3900 5500
+	3900 5850 3900 5800
 Wire Wire Line
-	3700 5850 3900 5850
+	3900 5800 3900 5500
+Wire Wire Line
+	3700 5850 3750 5850
+Wire Wire Line
+	3750 5850 3900 5850
 Wire Wire Line
 	3750 5850 3750 6250
 Wire Wire Line
@@ -728,7 +749,9 @@ ADS DECOUPLING
 Wire Wire Line
 	8650 1800 8650 1700
 Wire Wire Line
-	8350 1800 8650 1800
+	8350 1800 8500 1800
+Wire Wire Line
+	8500 1800 8650 1800
 Wire Wire Line
 	8500 1800 8500 1850
 Wire Wire Line
@@ -737,7 +760,9 @@ Connection ~ 8500 1800
 Wire Wire Line
 	8650 1350 8650 1400
 Wire Wire Line
-	8350 1350 8650 1350
+	8350 1350 8500 1350
+Wire Wire Line
+	8500 1350 8650 1350
 Wire Wire Line
 	8500 1350 8500 1250
 Wire Wire Line
@@ -746,7 +771,9 @@ Connection ~ 8500 1350
 Wire Wire Line
 	9400 1800 9400 1700
 Wire Wire Line
-	9100 1800 9400 1800
+	9100 1800 9250 1800
+Wire Wire Line
+	9250 1800 9400 1800
 Wire Wire Line
 	9250 1800 9250 1850
 Wire Wire Line
@@ -755,7 +782,9 @@ Connection ~ 9250 1800
 Wire Wire Line
 	9400 1350 9400 1400
 Wire Wire Line
-	9100 1350 9400 1350
+	9100 1350 9250 1350
+Wire Wire Line
+	9250 1350 9400 1350
 Wire Wire Line
 	9250 1350 9250 1250
 Wire Wire Line
@@ -764,7 +793,9 @@ Connection ~ 9250 1350
 Wire Wire Line
 	8650 2900 8650 2800
 Wire Wire Line
-	8350 2900 8650 2900
+	8350 2900 8500 2900
+Wire Wire Line
+	8500 2900 8650 2900
 Wire Wire Line
 	8500 2900 8500 2950
 Wire Wire Line
@@ -773,7 +804,9 @@ Connection ~ 8500 2900
 Wire Wire Line
 	8650 2450 8650 2500
 Wire Wire Line
-	8350 2450 8650 2450
+	8350 2450 8500 2450
+Wire Wire Line
+	8500 2450 8650 2450
 Wire Wire Line
 	8500 2450 8500 2350
 Wire Wire Line
@@ -782,7 +815,9 @@ Connection ~ 8500 2450
 Wire Wire Line
 	9400 2900 9400 2800
 Wire Wire Line
-	9100 2900 9400 2900
+	9100 2900 9250 2900
+Wire Wire Line
+	9250 2900 9400 2900
 Wire Wire Line
 	9250 2900 9250 2950
 Wire Wire Line
@@ -791,7 +826,9 @@ Connection ~ 9250 2900
 Wire Wire Line
 	9400 2450 9400 2500
 Wire Wire Line
-	9100 2450 9400 2450
+	9100 2450 9250 2450
+Wire Wire Line
+	9250 2450 9400 2450
 Wire Wire Line
 	9250 2450 9250 2350
 Wire Wire Line
@@ -819,14 +856,20 @@ ADS_CLK
 Wire Wire Line
 	6200 4650 5750 4650
 Wire Wire Line
-	3600 2350 3600 3100
+	3600 2350 3600 2650
+Wire Wire Line
+	3600 2650 3600 3100
 Wire Wire Line
 	3600 2650 3550 2650
 Wire Wire Line
-	3550 2350 3700 2350
+	3550 2350 3600 2350
+Wire Wire Line
+	3600 2350 3700 2350
 Connection ~ 3600 2650
 Wire Wire Line
-	3250 2350 2900 2350
+	3250 2350 3100 2350
+Wire Wire Line
+	3100 2350 2900 2350
 Wire Wire Line
 	3250 2650 3100 2650
 Wire Wire Line
@@ -841,6 +884,17 @@ Wire Wire Line
 Wire Wire Line
 	3700 2350 3700 3100
 Connection ~ 3600 2350
-Text Notes 2500 2250 0    60   ~ 0
+Text Notes 2350 1650 0    60   ~ 0
 BIAS_DRV in this \nconfiguration taken \nfrom TI and advised\nby FS
+$Comp
+L R R14
+U 1 1 59B23376
+P 3400 2350
+F 0 "R14" V 3480 2350 50  0000 C CNN
+F 1 "1M" V 3400 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3330 2350 50  0001 C CNN
+F 3 "" H 3400 2350 50  0000 C CNN
+	1    3400 2350
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
