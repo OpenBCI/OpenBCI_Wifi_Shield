@@ -100,7 +100,7 @@ F 3 "" H 5050 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5050 6900
-Text GLabel 2000 5650 0    60   Input ~ 0
+Text GLabel 1900 4600 0    60   Input ~ 0
 SRB1
 Wire Wire Line
 	2000 6050 3150 6050
@@ -575,7 +575,7 @@ Wire Wire Line
 	8300 5050 8850 5050
 Connection ~ 8350 5150
 Connection ~ 8400 5050
-Text GLabel 2000 6050 0    60   Input ~ 0
+Text GLabel 1850 5000 0    60   Input ~ 0
 SRB2
 Text GLabel 5350 5850 2    60   Input ~ 0
 _SRB2
